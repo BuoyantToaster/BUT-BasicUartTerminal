@@ -2,5 +2,6 @@
 This is a simple UART Terminal program written in Pico Mite Basic.
 I made and Tested it on the Clockworkpi Pico Calc kit since I thought it would be useful to be able to use it as a handy little UART Terminal to hook up to other MCUs or SBCs.
 
-So far, it still is a work in progress since its 'menu' if you can even call it that yet, doesn't work the way I would want and so far it also only supports 9600 baud and 115200 baud.
-The most usefull ones for MCUs and SBCs (from my experience at least) but I would like to add other options as well in the future.
+Version 1.0 has been uploaded, it is a lot more useful then the alpha version. I added 4 more baud rates and a simple menu that allows one to see all options and scroll through them instead of typing letters for each baud rate.
+
+How ever, handling of transmitted text is still a bit clunky since I didn't change anything of that. But I think that will probably be the next update.
